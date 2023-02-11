@@ -1,5 +1,21 @@
-.App {
+body {
+  background-image: url(../public/Koukan_background_web_opacity50.png);
+   /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  /* background-size: cover; */
+   /* font-family: sans-serif; */
+  z-index: 0;
+}
+
+ /* .App {
   text-align: center;
+}
+
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -32,7 +48,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+} */
+
+.listing {
+  width: 85%;
+  float: Right;
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; */
+
 }
+
+.listingClass {
+  width: 220px;
+  flex: 0 1 20%;
+} 
